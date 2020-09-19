@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>HTML Forms: </h2>
+    <form action="backend.php">
+
+
+
+        <div>
+            <label for="ID">Id:</label>
+            <input type="text" name="myId" id="ID">
+        </div>
+        <br>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+
+            <label for="email">Email:</label>
+            <input type="email" name="myEmail" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="date">Date: </label>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <div>
+            <label for="bonus">Bonus: </label>
+            <input type="number" name="myNumber" id="bonus">
+        </div>
+        <br>
+        <div>
+            <label for="check"> Check the course:</label>
+            <input type="checkbox" name="myCheckbox" id="check">Java
+            <input type="checkbox" name="myCheckbox">C++
+            <input type="checkbox" name="myCheckbox" checked>Web Development
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender: </label>
+             <input type="radio" value="male" name="myGender" id="gender">Male
+            <input type="radio" value="female" name="myGender">Female
+            <input type="radio" value="other" name="myGender">Other
+        </div>
+        <br>
+        <div>
+            About yourself: <br><textarea name="myTextarea" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <label for="course">select your course:</label>
+            <select name="myCourse" id="course">
+                <option value="android">Android Development</option>
+                <option value="web" selected>Web Design & Development</option>
+                <option value="data">Data Science</option>
+                <option value="python">Python for Beginner</option>
+                <option value="machine">Machine Learning</option>
+                <option value="django">Django for Web Development</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+
+</html>
